@@ -26,4 +26,4 @@ As configurações deste projeto estão inclusas no código, com apenas alguns c
 	
 	
 <h1>Demo</h1>
-<a href="jsfiddle.net/tiagoboeing/rc151zfa/8/embedded/result,html/">Projeto em funcionamento!</a>
+<a href="http://jsfiddle.net/tiagoboeing/rc151zfa/8/embedded/result,html/" target="_blank">Projeto em funcionamento!</a>
