@@ -111,7 +111,7 @@ function dominioEmail($informarManualmente, $dominioManual){
 								*	- domínio; apenas caso tenha definido o ARGUMENTO1 como true
 								*
 								*/
-								dominioEmail(true, "oregionalsul.com"); ?>
+								dominioEmail(false, "oregionalsul.com"); ?>
 							</div>
 
 						</div>
