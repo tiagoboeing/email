@@ -81,7 +81,7 @@ function dominioEmail($informarManualmente, $dominioManual){
 
 		<div class="row justify-content-md-center">
 
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xll-4" style="margin: 0 auto;">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xll-3" style="margin: 0 auto;">
 				<!-- <h3>Formulário de acesso</h3> -->
 
 				<!-- formulário-->
@@ -96,24 +96,23 @@ function dominioEmail($informarManualmente, $dominioManual){
 
 							<input placeholder="Usuário" type="text" name="usuario" id="user" class="form-control form-control-lg"/>
 							<!-- <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username"> -->
-							<div class="input-group-addon"><?php
-
-							/* APENAS VISUALIZAÇÃO
-							Configure aqui se deseja mostrar o domínio manualmente ou de forma dinâmica
-							*
-							Função: dominioEmail(manual??, dominio)
-							*
-							*	Argumento 1
-							*	- true = informar manualmente
-							*	- false = sistema pega dinamicamente
-							*
-							*	Argumento 2
-							*	- domínio; apenas caso tenha definido o ARGUMENTO1 como true
-							*
-							*/
-							dominioEmail(false, "oregionalsul.com.br");
-
-							?></div>
+							<div class="input-group-addon">
+								<?php
+								/* APENAS VISUALIZAÇÃO
+								Configure aqui se deseja mostrar o domínio manualmente ou de forma dinâmica
+								*
+								* Função: dominioEmail(manual??, dominio)
+								*
+								*	Argumento 1
+								*	- true = informar manualmente
+								*	- false = sistema pega dinamicamente
+								*
+								*	Argumento 2
+								*	- domínio; apenas caso tenha definido o ARGUMENTO1 como true
+								*
+								*/
+								dominioEmail(true, "oregionalsul.com"); ?>
+							</div>
 
 						</div>
 
