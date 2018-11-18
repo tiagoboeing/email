@@ -7,8 +7,8 @@ As configurações deste projeto estão inclusas no código, com apenas alguns c
 	#################################
 	Programa: Personaliza página que realiza login no webmail do CPANEL & WHM
 	Autor: Tiago Boeing
-	Site: tiagoboeing.com.br
-	Contato: contato@tiagoboeing.com.br
+	Site: tiagoboeing.com
+	Contato: contato@tiagoboeing.com
 	GITHUB: github.com/tiagoboeing
 	#################################
 
